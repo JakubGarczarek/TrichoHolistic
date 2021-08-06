@@ -1,0 +1,188 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+.card-bg {
+	background: linear-gradient(90deg, #fff, #eee);
+}
+
+header {
+	text-align: center;
+}
+.logo {
+	width: 50%;
+	margin: 40px auto;
+	max-width: 800px;
+}
+
+nav {
+	height: 60px;
+	line-height: 60px;
+	background: linear-gradient(90deg, #fff, #eee);
+	background-color: #ddd;
+	text-align: center;
+}
+
+nav a {
+	padding: 0 30px;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(24, 8, 170, 0.671);
+	transition: 0.5s;
+}
+nav a:hover {
+	color: rgb(236, 95, 95);
+}
+
+.hair,
+.price,
+.me {
+	width: 100%;
+}
+.gallery {
+	box-shadow: 12px 29px 81px 10px rgba(0, 0, 0, 0.493);
+}
+.me {
+	display: block;
+	margin: 0 auto;
+	max-width: 800px;
+	box-shadow: 12px 29px 81px 10px rgba(0, 0, 0, 0.493);
+}
+.round {
+	border-radius: 50px;
+}
+.price {
+	max-width: 1600px;
+}
+main {
+	text-align: center;
+}
+.card {
+	max-width: 1000px;
+	width: 100%;
+}
+.card-mobile {
+	display: none;
+}
+
+h2 {
+	margin-top: 60px;
+	color: rgba(24, 8, 170, 0.4);
+}
+
+footer,
+h1 {
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+	color: rgba(144, 133, 209, 0.4);
+	letter-spacing: 5px;
+	font-size: 18px;
+	margin: 0;
+}
+
+li {
+	color: rgb(123, 116, 190, 0.5);
+	font-size: 20px;
+	text-align: justify;
+	width: 80%;
+	margin-bottom: 20px;
+}
+p {
+	display: inline-block;
+	text-align: justify;
+	font-size: 20px;
+	width: 70%;
+	color: rgba(58, 58, 58, 0.5);
+	margin: 30px auto;
+	line-height: 40px;
+	max-width: 800px;
+}
+
+.white {
+	margin-top: 50px;
+}
+.black {
+	margin: 40px auto;
+}
+
+@media (max-width: 670px) {
+	nav a {
+		padding: 0 15px;
+	}
+}
+@media (max-width: 530px) {
+	nav {
+		height: 210px;
+	}
+	nav a {
+		display: block;
+		border: 1px solid rgb(232, 222, 247);
+		letter-spacing: 3px;
+		line-height: 40px;
+	}
+	.card {
+		display: none;
+	}
+	.card-mobile {
+		display: block;
+		width: 100%;
+		margin: 40px auto;
+	}
+
+	li {
+		width: 80%;
+	}
+	.me,
+	.white {
+		border-radius: 0px;
+	}
+
+	
+	h1 {
+		font-size: 16px;
+		letter-spacing: 1px;
+		
+	}
+}
+span {
+	font-weight: bold;
+	color: rgba(123, 116, 190, 1);
+}
+table {
+	color: rgb(123, 116, 190, 0.5);
+	padding: 30px;
+	text-align: center;
+	font-size: 16px;
+}
+table {
+	border-spacing: 0;
+	margin: 0px auto;
+}
+table.consult {
+	margin-top: 50px;
+}
+th,
+td {
+	border: 1px solid rgb(123, 116, 190, 0.5);
+}
+td,
+th {
+	padding: 20px;
+}
+i {
+	font-size: 30px;
+	color: rgba(24, 8, 170, 0.671);
+	margin-left: 30px;
+}
+.social {
+	margin: 30px;
+}
+div img {
+	max-width: 100%;
+}
