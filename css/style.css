@@ -44,6 +44,9 @@ nav a:hover {
 .me {
 	width: 100%;
 }
+.hair-mobile {
+	display:none;
+}
 .gallery {
 	box-shadow: 12px 29px 81px 10px rgba(0, 0, 0, 0.493);
 }
@@ -111,45 +114,6 @@ p {
 	margin: 40px auto;
 }
 
-@media (max-width: 670px) {
-	nav a {
-		padding: 0 15px;
-	}
-}
-@media (max-width: 530px) {
-	nav {
-		height: 210px;
-	}
-	nav a {
-		display: block;
-		border: 1px solid rgb(232, 222, 247);
-		letter-spacing: 3px;
-		line-height: 40px;
-	}
-	.card {
-		display: none;
-	}
-	.card-mobile {
-		display: block;
-		width: 100%;
-		margin: 40px auto;
-	}
-
-	li {
-		width: 80%;
-	}
-	.me,
-	.white {
-		border-radius: 0px;
-	}
-
-	
-	h1 {
-		font-size: 16px;
-		letter-spacing: 1px;
-		
-	}
-}
 span {
 	font-weight: bold;
 	color: rgba(123, 116, 190, 1);
@@ -185,4 +149,51 @@ i {
 }
 div img {
 	max-width: 100%;
+}
+
+@media (max-width: 670px) {
+	nav a {
+		padding: 0 15px;
+	}
+}
+@media (max-width: 530px) {
+	nav {
+		height: 210px;
+	}
+	nav a {
+		display: block;
+		border: 1px solid rgb(232, 222, 247);
+		letter-spacing: 3px;
+		line-height: 40px;
+	}
+	.card {
+		display: none;
+	}
+	.card-mobile {
+		display: block;
+		width: 100%;
+		margin: 40px auto;
+	}
+
+	li {
+		width: 80%;
+	}
+	.me,
+	.white {
+		border-radius: 0px;
+	}
+	
+	
+	h1 {
+		font-size: 16px;
+		letter-spacing: 1px;
+		
+	}
+	.hair {
+		display:none;
+	}
+	.hair-mobile{
+		display:inline;
+		width: 100%;
+	}
 }
